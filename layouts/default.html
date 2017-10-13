@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hacktoberfest Bauchi 2017 - <%= @item[:title] %></title>
+    <link rel="stylesheet" href="/stylesheet.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+      <h2>Projects You can contribute to</h2>
+      <ul>
+        <li><a href="https://github.com/freeCodeCamp/guides">freeCodeCamp guides</a></li>
+        <li><a href="https://github.com/Cutwell/Hacktoberfest-Census">Hacktoberfest-Census</a></li>
+      </ul>
+      <h2>Community</h2>
+      <ul>
+        <li><a href="https://www.meetup.com/DigitalOceanBauchi/">Digital Ocean Bauchi Meetup</a></li>
+        <li><a href="https://hub.uplift.ng">UpliftHUB</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
