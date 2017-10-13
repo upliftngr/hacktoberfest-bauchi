@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-
+No Copying of each others project content
+No resending of Same edition
 compile '/**/*.html' do
   layout '/default.*'
 end
