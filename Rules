@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 compile '/**/*.html' do
   layout '/default.*'
 end
